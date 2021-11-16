@@ -1,0 +1,36 @@
+.form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #2772db;
+  display: inline-block;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 5px;
+  position: relative;
+  color: white;
+}
+
+.input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.submit[type="submit"] {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #e4f1fe;
+  border: 1px solid grey;
+  box-shadow: 2px 2px #999;
+  cursor: pointer;
+}
+
+.submit[type="submit"]:hover {
+  background-color: #fffec4;
+}
